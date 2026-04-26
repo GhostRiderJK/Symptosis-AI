@@ -1,0 +1,15 @@
+.env
+.qoder/
+.vscode/
+logs/
+apache-maven-3.9.14-bin/
+
+# Java / Maven build output
+**/target/
+**/*.class
+
+# Python artifacts
+**/__pycache__/
+**/*.pyc
+ml-model/model.pkl
+

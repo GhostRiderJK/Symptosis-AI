@@ -1,0 +1,15 @@
+{
+  "patientId": 1,
+  "riskLevel": "HIGH",
+  "ruleScore": 8.35,
+  "mlPrediction": "HIGH",
+  "decisionSource": "HYBRID_RULE_ML",
+  "analytics": {
+    "severityTrend": 8.5,
+    "averageSeverity": 8.67,
+    "averageFrequency": 7.33,
+    "averageDuration": 46.67,
+    "recordCount": 3
+  },
+  "explanation": "The patient shows a strong upward severity trend with frequent and long-lasting symptoms, so escalation risk is high. This is symptom analytics only and not a medical diagnosis."
+}

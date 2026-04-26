@@ -1,0 +1,15 @@
+{
+  "patientId": 2,
+  "riskLevel": "LOW",
+  "ruleScore": 2.05,
+  "mlPrediction": "LOW",
+  "decisionSource": "HYBRID_RULE_ML",
+  "analytics": {
+    "severityTrend": 2.0,
+    "averageSeverity": 2.33,
+    "averageFrequency": 1.67,
+    "averageDuration": 9.33,
+    "recordCount": 3
+  },
+  "explanation": "The patient has mild symptom intensity, infrequent recurrence, and short duration, so the escalation risk remains low. This is symptom analytics only and not a medical diagnosis."
+}

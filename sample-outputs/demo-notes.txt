@@ -1,0 +1,8 @@
+Demo checklist:
+1. Start MySQL, backend, ML API, and Ollama.
+2. Create one patient for HIGH risk and add three severe records.
+3. Create one patient for LOW risk and add three mild records.
+4. Show /risk and /explanation responses.
+5. Set ENABLE_ML=false in .env, restart backend, and show rule-based fallback.
+6. Set ENABLE_LLM=false in .env, restart backend, and show static explanation fallback.
+7. Change WEIGHT_SEVERITY or WEIGHT_DURATION, restart backend, and show changed score.
